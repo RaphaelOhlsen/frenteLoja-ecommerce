@@ -3,8 +3,8 @@ import NextHead from 'next/head';
 import { string } from 'prop-types';
 import { kStringMaxLength } from 'buffer';
 
-const defaultDescricao = ''
-      defaultOGURL = ''
+const defaultDescricao = '',
+      defaultOGURL = '',
       defaultOGImage = '/static/logo.png';
 
 const Head = props => (
