@@ -9,7 +9,7 @@ class Pesquisa extends Component {
 
   render(){
     return(
-      <div className="flex-3 flex flex-center">
+      <div className="flex-3 flex flex-center wrap-pesquisa">
         <input 
           name="pesquisa"
           value={this.state.termo}
@@ -20,8 +20,10 @@ class Pesquisa extends Component {
         <button 
           onClick={() => this.submitPesquisa()}
           className="button-pesquisa"
-        />
-        <i className="fa fa-search"></i>
+        >
+          <i className="fa fa-search"></i>
+        </button>
+        
       </div>
     )
   }

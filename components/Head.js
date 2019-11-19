@@ -1,7 +1,6 @@
 import React from 'react';
 import NextHead from 'next/head';
 import { string } from 'prop-types';
-import { kStringMaxLength } from 'buffer';
 
 const defaultDescricao = '',
       defaultOGURL = '',
@@ -27,7 +26,12 @@ const Head = props => (
     <meta property="og:image" content={props.ogImage || defaultOGImage} />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="600" />
-    <link rel="stylesheet" href="/static/font-awesome.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"    
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossOrigin="anonymous"
+    />
     { props.children }
   </NextHead>
 );

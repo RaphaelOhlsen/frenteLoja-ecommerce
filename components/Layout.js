@@ -13,13 +13,13 @@ const Layout = ({ children, title, description, url, image }) => (
     <div className="body">
       { children }
     </div>
-    <footer>
+    {/* <footer>
       <div className="flex flex-center">
         <small>
           &copy; Loja IT - Curso Criando um Ecommerce do Zero
         </small>
       </div>
-    </footer>
+    </footer> */}
   </div>
 );
 
