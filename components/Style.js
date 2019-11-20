@@ -112,8 +112,8 @@ export default () => (
     }
 
     .categorias-wrapper {
-      max-width: 1200px;
-      margin: 0 auto;
+      // max-width: 1200px;
+      // margin: 0 auto;
       background-color: #ffedd9;
     }
 
