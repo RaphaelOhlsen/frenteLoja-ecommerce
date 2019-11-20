@@ -26,10 +26,10 @@ export default () => (
     }
 
     .Header {
-      max-height: 100px;
+      max-height: 150px;
     }
 
-    .header-wrapper {
+    .header-wrapper, .categorias {
       max-width: 1200px;
       margin: 0 auto;
       width: 100%;
@@ -37,11 +37,14 @@ export default () => (
     }
 
     @media screen and (max-width: 720px) {
-      .header-wrapper {
+      .header-wrapper, {
         flex-direction: column;
       }
+      .categorias {
+        overflow-x: scrool;
+      }
       .Header {
-        max-height: 200px;
+        max-height: 250px;
       }
     } 
 
@@ -107,6 +110,28 @@ export default () => (
       position: relative;
       top: -15px;
     }
+
+    .categorias-wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: #ffedd9;
+    }
+
+    .categoria-item {
+      padding: 10px 5px;
+      border-right: 1px solid #e87c08;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #333;
+    }
+
+    .categoria-item:hover {
+      background-color: #e87c08
+    }
+
+    .categoria-item:last-child {
+      border-right: 0;
+    }    
 
   `}</style>
 )
