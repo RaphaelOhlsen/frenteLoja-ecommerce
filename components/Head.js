@@ -13,7 +13,7 @@ const Head = props => (
     <meta 
       name="description"
       content={props.description || defaultDescricao } />
-    <meta name="viewport" content="width-device-width, initial-scale-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/static/favicon.ico" />
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || ""} />
@@ -32,6 +32,7 @@ const Head = props => (
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossOrigin="anonymous"
     />
+    <link rel="stylesheet" href="/static/style.css" />
     { props.children }
   </NextHead>
 );

@@ -11108,13 +11108,7 @@ function (_App) {
           Component = _this$props.Component,
           pageProps = _this$props.pageProps,
           store = _this$props.store;
-      return __jsx(next_app__WEBPACK_IMPORTED_MODULE_10__["Container"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, __jsx(react_redux__WEBPACK_IMPORTED_MODULE_9__["Provider"], {
+      return __jsx(react_redux__WEBPACK_IMPORTED_MODULE_9__["Provider"], {
         store: store,
         __source: {
           fileName: _jsxFileName,
@@ -11127,7 +11121,7 @@ function (_App) {
           lineNumber: 18
         },
         __self: this
-      }))));
+      })));
     }
   }], [{
     key: "getInitialProps",

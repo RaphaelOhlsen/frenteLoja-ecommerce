@@ -678,13 +678,7 @@ class Principal extends next_app__WEBPACK_IMPORTED_MODULE_3___default.a {
       pageProps,
       store
     } = this.props;
-    return __jsx(next_app__WEBPACK_IMPORTED_MODULE_3__["Container"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16
-      },
-      __self: this
-    }, __jsx(react_redux__WEBPACK_IMPORTED_MODULE_2__["Provider"], {
+    return __jsx(react_redux__WEBPACK_IMPORTED_MODULE_2__["Provider"], {
       store: store,
       __source: {
         fileName: _jsxFileName,
@@ -697,7 +691,7 @@ class Principal extends next_app__WEBPACK_IMPORTED_MODULE_3___default.a {
         lineNumber: 18
       },
       __self: this
-    }))));
+    })));
   }
 
 }
