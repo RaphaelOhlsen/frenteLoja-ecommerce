@@ -9,7 +9,7 @@ class Pesquisa extends Component {
 
   render(){
     return(
-      <div className="flex-3 flex flex-center wrap-pesquisa">
+      <div className="flex-3 flex flex-center">
         <input 
           name="pesquisa"
           value={this.state.termo}
