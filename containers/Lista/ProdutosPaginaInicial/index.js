@@ -12,21 +12,20 @@ const PRODUTOS = [
   },
   {
     id: 23423467,
-    fotos: ["/static/img/mouse-4.png"],
-    titulo: "Mouse Gamer 2 asdasdasdas adasdasdasd adasdasd",
-    preco: 55,
-    promocao: 45
+    fotos: ["/static/img/mouse-2.png"],
+    titulo: "Mouse Gamer 2",
+    preco: 55
   },
   {
     id: 123124379,
-    fotos: ["/static/img/mouse-5.png"],
+    fotos: ["/static/img/mouse-3.png"],
     titulo: "Mouse Gamer 3",
     preco: 105,
     promocao: 95
   },
   {
     id: 9634534657,
-    fotos: ["/static/img/mouse-2.png"],
+    fotos: ["/static/img/mouse-4.png"],
     titulo: "Mouse Gamer 4",
     preco: 160,
     promocao: 150

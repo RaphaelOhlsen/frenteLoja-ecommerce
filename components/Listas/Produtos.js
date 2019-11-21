@@ -9,6 +9,7 @@ class Produtos extends Component {
     produtosListados.forEach(function(item) {
       if(highest < item.clientHeight) highest = item.clientHeight;
     });
+    // console.log(item.clientHeight);
     produtosListados.forEach(function(item) {
       item.style.height = highest + 10 + "px";
     });
