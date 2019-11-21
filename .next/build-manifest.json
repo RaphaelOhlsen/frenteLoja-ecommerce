@@ -16,11 +16,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/categoria/[categoria]": [
+    "/pesquisa": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/pesquisa": [
+    "/produto/[produto]": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
