@@ -23,31 +23,6 @@ export default () => (
       max-width: 1440px;
     }
 
-    .wrap {
-      flex-wrap: wrap;
-    }
-    .wrap-1 {
-      flex-basis: calc(100% - 20px);
-      max-width: calc(100% - 20px);
-    }
-    .wrap-2 {
-      flex-basis: calc(50% - 20px);
-      max-width: calc(50% - 20px);
-    }
-    .wrap-3 {
-      flex-basis:calc(32% - 20px);
-      max-width: calc(32% - 20px);
-    }
-    .wrap-4 {
-      flex-basis: calc(25% - 20px);
-      max-width: calc(25% - 20px);
-    }
-    .wrap-5 {
-      flex-basis: calc(20% - 20px);
-      max-width: calc(20% - 20px);
-    }
-
-
     .flex { display: flex; }
     .flex-1 { flex: 1; }
     .flex-2 { flex: 2; }
@@ -55,6 +30,32 @@ export default () => (
     .flex-4 { flex: 4; }
     .flex-5 { flex: 5; }
     .flex-6 { flex: 6; }
+
+    .wrap {
+      flex-wrap: wrap;
+    }
+    .wrap-1 {
+      flex-basis: calc(100% - 50px);
+      max-width: calc(100% - 50px);
+    }
+    .wrap-2 {
+      flex-basis: calc(50% - 50px);
+      max-width: calc(50% - 50px);
+    }
+    .wrap-3 {
+      flex-basis:calc(32% - 50px);
+      max-width: calc(32% - 50px);
+    }
+    .wrap-4 {
+      flex-basis: calc(25% - 50px);
+      max-width: calc(25% - 50px);
+    }
+    .wrap-5 {
+      flex-basis: calc(20% - 50px);
+      max-width: calc(20% - 50px);
+    }
+
+
 
     .vertical {
       flex-direction: column;
