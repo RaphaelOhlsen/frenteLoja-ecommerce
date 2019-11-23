@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Hero from './Hero';
 import Descricao from './Descricao';
 import Avaliacoes from './Avaliacoes';
+import ProdutosRealacionados from './ProdutosRelacionados';
 
 export default class Produto extends Component {
   render(){
@@ -11,6 +12,7 @@ export default class Produto extends Component {
         <Hero />
         <Descricao />
         <Avaliacoes />
+        <ProdutosRealacionados />
       </div>
     )
   }
