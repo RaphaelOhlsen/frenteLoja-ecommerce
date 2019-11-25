@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import ListadeProdutos from './ListadeProdutos';
+import ListadeProdutos from './ListaDeProdutos';
 import DadosdoCarrinho from './DadosdoCarrinho';
 
-class CarrinhoContainer extends Component {
+export default class CarrinhoContainer extends Component {
   render(){
     return (
       <div className="container Carrinho">
