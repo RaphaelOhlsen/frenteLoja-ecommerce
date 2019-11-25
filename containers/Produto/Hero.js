@@ -80,9 +80,9 @@ export default class Hero extends Component {
         </div>
         <br/>
         { this.renderVariacoes() }
-        <div className="opcoes flex vertical">
-          <div className="opcao">
-            <label className="opcao-tab">Quantidade</label>
+        <div className="opcoes">
+          <div className="opcao flex vertical">
+            <label className="opcao-tab">Quantidade:</label>
             <input
               className="opcao-input"
               type="number"
