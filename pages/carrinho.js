@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
+import Layout from '../components/Layout';
+import Cabecalho from '../container/Cabecalho';
+import CarrinhoContainer from '../containers/Carrinho';
+import Rodape from '../containers/Rodape';
 export default class Carrinho extends Component {
   render(){
     return(
-      <div>
-        <h2>Loja IT - Carrinho</h2>
-      </div>
+      <Layout title="Carrinho | Loja IT - Melhores produtos de tecnologia" >
+        <Cabecalho Simples/>
+        <CarrinhoContainer />
+        <Rodape /> 
+      </Layout>
     )
   }
 }
