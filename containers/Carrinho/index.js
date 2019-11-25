@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import ListadeProdutos from './ListaDeProdutos';
-import DadosdoCarrinho from './DadosdoCarrinho';
+import DadosDoCarrinho from './DadosDoCarrinho';
 
 export default class CarrinhoContainer extends Component {
   render(){
@@ -10,7 +10,7 @@ export default class CarrinhoContainer extends Component {
         <h2>Detalhes do Pedido</h2>
         <br/>
         <ListadeProdutos />
-        <DadosdoCarrinho />
+        <DadosDoCarrinho />
       </div>
     )
   }
